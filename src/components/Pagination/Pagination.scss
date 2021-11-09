@@ -1,0 +1,26 @@
+@import "../../main.scss";
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__item {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100%;
+
+    &_active {
+      color: #fff;
+      background: $color-red;
+    }
+  }
+
+  &__button{
+    border: none;
+    background: #fff;
+  }
+
+}

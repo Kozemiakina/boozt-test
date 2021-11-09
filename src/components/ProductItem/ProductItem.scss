@@ -1,0 +1,29 @@
+@import "../../main.scss";
+
+.product {
+  margin: 30px 0;
+  max-width: 20%;
+
+  &__image{
+    img{
+      width: 100%;
+    }
+  }
+
+  &__price{
+    &_base{
+      text-decoration: line-through;
+    }
+    &_actual{
+      font-size: 1.2rem;
+    }
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .product {
+    margin: 50px 0;
+    max-width: 100%;
+  }
+}
